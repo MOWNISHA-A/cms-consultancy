@@ -125,3 +125,4 @@ exports.searchCustomers = async (req, res, next) => {
     next(error);
   }
 };
+

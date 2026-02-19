@@ -234,4 +234,3 @@ exports.recordPayment = async (req, res, next) => {
     next(error);
   }
 };
-

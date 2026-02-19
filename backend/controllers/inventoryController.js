@@ -159,3 +159,4 @@ exports.updateStock = async (req, res, next) => {
     next(error);
   }
 };
+

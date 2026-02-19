@@ -172,4 +172,6 @@ router.put("/:id", updateService);
  *         description: Service not found
  */
 router.delete("/:id", role(["admin"]), deleteService);
+
 module.exports = router;
+

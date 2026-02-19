@@ -145,4 +145,6 @@ router.put("/:id", role(["admin"]), updateCustomer);
  *         description: Customer not found
  */
 router.delete("/:id", role(["admin"]), deleteCustomer);
+
 module.exports = router;
+
